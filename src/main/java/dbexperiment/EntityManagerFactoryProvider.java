@@ -18,6 +18,8 @@ public class EntityManagerFactoryProvider {
         }
     }
 
+    private EntityManagerFactoryProvider(){}
+
     /**
      * This method return the Application EntityManagerFactory.
      * The method is in a singleton class, so we will be using
